@@ -1,0 +1,39 @@
+{
+	"platformName": "通用",
+	"platformSuffix": "平台",
+	"administrator": {
+		"account": "administrator"
+	},
+	"menus": [
+		{
+			"menuName": "仪表盘", "menuUrl": "http://www.baidu.com", 
+			"subMenus": [
+				{"menuName": "仪表盘1", "menuUrl": "http://www.baidu.com", "subMenus": []},
+				{"menuName": "仪表盘2", "menuUrl": "http://www.baidu.com", "subMenus": []}
+			]
+		},
+		{
+			"menuName": "实例", "menuUrl": "http://www.baidu.com",
+			"subMenus": [
+				{"menuName": "404", "menuUrl": "/404", "subMenus": []},
+				{"menuName": "500", "menuUrl": "/500", "subMenus": []},
+				{"menuName": "登录", "menuUrl": "/login", "subMenus": []},
+				{"menuName": "锁屏", "menuUrl": "/lockscreen", "subMenus": []}
+			]
+		},
+		{
+			"menuName": "一级菜单项", "menuUrl": "http://www.baidu.com",
+			"subMenus": [
+				{"menuName": "二级菜单项1", "menuUrl": "http://www.baidu.com", "subMenus": []}
+				{"menuName": "二级菜单项2", "menuUrl": "http://www.baidu.com", "subMenus": []}
+				{
+					"menuName": "二级菜单项3", "menuUrl": "http://www.baidu.com",
+					"subMenus": [
+						{"menuName": "三级级菜单项1", "menuUrl": "http://www.baidu.com", "subMenus": []}
+						{"menuName": "三级菜单项2", "menuUrl": "http://www.baidu.com", "subMenus": []}
+					]
+				}
+			]
+		}
+	]
+}
